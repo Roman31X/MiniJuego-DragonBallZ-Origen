@@ -3,28 +3,14 @@ package com.roman31x.minijuego.dragonballz.origen.Musica;
 import java.io.IOException;
 import java.io.InputStream;
 import javax.sound.sampled.AudioSystem;
-import javax.sound.sampled.Clip;
-import javax.sound.sampled.LineUnavailableException;
-import javax.sound.sampled.UnsupportedAudioFileException;
+import javax.sound.sampled.*;
 
 /**
  *
  * @author Roman31X
  */
-public class ControladorMusica {
-    private Clip fondoMusica;
+public class ControladorMusicaSonidos {
     private Clip musica;
-
-    public ControladorMusica() {
-    }
-        
-    public void Play() throws LineUnavailableException, UnsupportedAudioFileException, IOException{
-        InputStream ruta = null;
-        ruta =getClass().getResourceAsStream("/AudioJuego/inicioMusic.wav");
-        fondoMusica = AudioSystem.getClip();
-        fondoMusica.open(AudioSystem.getAudioInputStream(ruta));
-        fondoMusica.start();
-    }
     
     public Clip ReproducirAudio(int dato)throws LineUnavailableException{
         InputStream ruta = null;
@@ -47,4 +33,5 @@ public class ControladorMusica {
         } 
         return clip;
     }
+    
 }
