@@ -21,6 +21,9 @@ public class Start_DragonBallZ_Origen extends javax.swing.JFrame {
     private void initComponents() {
 
         jPanel1 = new FondoPanel("Inicio.jpg");
+        jButton1 = new javax.swing.JButton();
+        jButton2 = new javax.swing.JButton();
+        SALIR = new javax.swing.JButton();
         Ocho = new javax.swing.JLabel();
         Uno = new javax.swing.JLabel();
         Dos = new javax.swing.JLabel();
@@ -32,9 +35,28 @@ public class Start_DragonBallZ_Origen extends javax.swing.JFrame {
         Siete = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setUndecorated(true);
 
         jPanel1.setPreferredSize(new java.awt.Dimension(500, 599));
         jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jButton1.setBackground(new java.awt.Color(255, 0, 0));
+        jButton1.setFont(new java.awt.Font("MS UI Gothic", 1, 12)); // NOI18N
+        jButton1.setForeground(new java.awt.Color(255, 255, 255));
+        jButton1.setText("INICIAR");
+        jPanel1.add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 270, 100, 30));
+
+        jButton2.setBackground(new java.awt.Color(255, 0, 0));
+        jButton2.setFont(new java.awt.Font("MS UI Gothic", 1, 12)); // NOI18N
+        jButton2.setForeground(new java.awt.Color(255, 255, 255));
+        jButton2.setText("OPCIONES");
+        jPanel1.add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 310, 100, 30));
+
+        SALIR.setBackground(new java.awt.Color(255, 0, 0));
+        SALIR.setFont(new java.awt.Font("MS UI Gothic", 1, 12)); // NOI18N
+        SALIR.setForeground(new java.awt.Color(255, 255, 255));
+        SALIR.setText("SALIR");
+        jPanel1.add(SALIR, new org.netbeans.lib.awtextra.AbsoluteConstraints(220, 350, 100, 30));
 
         Ocho.setBackground(new java.awt.Color(255, 255, 255));
         Ocho.setOpaque(true);
@@ -64,7 +86,7 @@ public class Start_DragonBallZ_Origen extends javax.swing.JFrame {
         Cinco.setBackground(new java.awt.Color(255, 153, 51));
         Cinco.setOpaque(true);
         Cinco.setPreferredSize(new java.awt.Dimension(155, 159));
-        jPanel1.add(Cinco, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 240, 150, 159));
+        jPanel1.add(Cinco, new org.netbeans.lib.awtextra.AbsoluteConstraints(185, 240, -1, 159));
 
         Seis.setBackground(new java.awt.Color(255, 255, 255));
         Seis.setOpaque(true);
@@ -102,10 +124,13 @@ public class Start_DragonBallZ_Origen extends javax.swing.JFrame {
     public javax.swing.JLabel Dos;
     public javax.swing.JLabel Nueve;
     public javax.swing.JLabel Ocho;
+    private javax.swing.JButton SALIR;
     public javax.swing.JLabel Seis;
     public javax.swing.JLabel Siete;
     public javax.swing.JLabel Tres;
     public javax.swing.JLabel Uno;
+    private javax.swing.JButton jButton1;
+    private javax.swing.JButton jButton2;
     public javax.swing.JPanel jPanel1;
     // End of variables declaration//GEN-END:variables
 }
