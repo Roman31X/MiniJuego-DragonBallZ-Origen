@@ -1,14 +1,13 @@
 package com.roman31x.minijuego.dragonballz.origen.Controladores;
 
 import com.roman31x.minijuego.dragonballz.origen.Vista_Panel_Inicio.Start_DragonBallZ_Origen;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
+import java.awt.event.*;
 
 /**
  *
  * @author Roman31X
  */
-public class Control_Start implements ActionListener{
+public class Control_Start implements MouseListener,ActionListener{
     
     private Start_DragonBallZ_Origen inicio;
     
@@ -36,5 +35,25 @@ public class Control_Start implements ActionListener{
                 System.exit(0);
                 ;break;
         }
+    }
+
+    @Override
+    public void mouseClicked(MouseEvent e) {
+    }
+
+    @Override
+    public void mousePressed(MouseEvent e) {
+    }
+
+    @Override
+    public void mouseReleased(MouseEvent e) {
+    }
+
+    @Override
+    public void mouseEntered(MouseEvent e) {
+    }
+
+    @Override
+    public void mouseExited(MouseEvent e) {
     }
 }
