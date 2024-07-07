@@ -4,8 +4,7 @@ import com.roman31x.minijuego.dragonballz.origen.Controladores.Control_Start;
 import com.roman31x.minijuego.dragonballz.origen.Musica.ControladorMusicaFondo;
 import com.roman31x.minijuego.dragonballz.origen.Vista_Panel_Inicio.Start_DragonBallZ_Origen;
 import java.io.IOException;
-import javax.sound.sampled.LineUnavailableException;
-import javax.sound.sampled.UnsupportedAudioFileException;
+import javax.sound.sampled.*;
 
 /**
  *

@@ -26,7 +26,7 @@ public class FondoPanel extends JPanel{
         
     @Override
     public void paint(Graphics g){
-        foto = new ImageIcon(getClass().getResource("/Fondo_Inicio/"+dato)).getImage();
+        foto = new ImageIcon(getClass().getResource("/Fondos/"+dato)).getImage();
         //Ajuste automatico de la imagen a la ventana
         g.drawImage(foto,0, 0, getWidth(),getHeight(),this);
 
