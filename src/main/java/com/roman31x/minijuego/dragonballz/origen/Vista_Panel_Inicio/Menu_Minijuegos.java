@@ -24,7 +24,13 @@ public class Menu_Minijuegos extends javax.swing.JFrame {
         jLabel1 = new javax.swing.JLabel();
         jLabel2 = new javax.swing.JLabel();
         jLabel3 = new javax.swing.JLabel();
-        jButton1 = new javax.swing.JButton();
+        jLabel4 = new javax.swing.JLabel();
+        jLabel5 = new javax.swing.JLabel();
+        jLabel6 = new javax.swing.JLabel();
+        Combate = new javax.swing.JLabel();
+        Atras = new javax.swing.JLabel();
+        Memoria = new javax.swing.JLabel();
+        Laberinto = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setUndecorated(true);
@@ -36,15 +42,38 @@ public class Menu_Minijuegos extends javax.swing.JFrame {
 
         jLabel2.setFont(new java.awt.Font("Wide Latin", 3, 24)); // NOI18N
         jLabel2.setForeground(new java.awt.Color(255, 0, 51));
-        jLabel2.setText("MENÚ PRINCIPAL");
-        jPanel1.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 30, 460, 50));
+        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Palabras/menu.png"))); // NOI18N
+        jPanel1.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(95, 25, 460, 50));
 
         jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Iconos/gifMenuPrincipal.gif"))); // NOI18N
         jLabel3.setText("jLabel3");
-        jPanel1.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(370, 90, 220, 286));
+        jPanel1.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(390, 90, 200, 260));
 
-        jButton1.setText("jButton1");
-        jPanel1.add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 140, -1, -1));
+        jLabel4.setBackground(new java.awt.Color(0, 0, 255));
+        jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Iconos/combate.gif"))); // NOI18N
+        jPanel1.add(jLabel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 310, 80, 80));
+
+        jLabel5.setBackground(new java.awt.Color(0, 0, 255));
+        jLabel5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Iconos/memoria.gif"))); // NOI18N
+        jPanel1.add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 100, 80, 80));
+
+        jLabel6.setBackground(new java.awt.Color(0, 0, 255));
+        jLabel6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Iconos/corre.gif"))); // NOI18N
+        jLabel6.setText("jLabel4");
+        jPanel1.add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(30, 205, 80, 80));
+
+        Combate.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Palabras/combateGris.png"))); // NOI18N
+        jPanel1.add(Combate, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 320, 260, 50));
+
+        Atras.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Iconos/Atras.png"))); // NOI18N
+        Atras.setText("jLabel8");
+        jPanel1.add(Atras, new org.netbeans.lib.awtextra.AbsoluteConstraints(555, 355, 40, 40));
+
+        Memoria.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Palabras/juegoMemoria.png"))); // NOI18N
+        jPanel1.add(Memoria, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 110, 260, 50));
+
+        Laberinto.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Palabras/laberintoGris.png"))); // NOI18N
+        jPanel1.add(Laberinto, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 220, 260, 50));
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -59,21 +88,19 @@ public class Menu_Minijuegos extends javax.swing.JFrame {
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
-    
-    /*
-    public static void main(String args[]) {
-        java.awt.EventQueue.invokeLater(new Runnable() {
-            public void run() {
-                new Menu_Minijuegos().setVisible(true);
-            }
-        });
-    }*/
+
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton jButton1;
+    public javax.swing.JLabel Atras;
+    public javax.swing.JLabel Combate;
+    public javax.swing.JLabel Laberinto;
+    public javax.swing.JLabel Memoria;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
+    private javax.swing.JLabel jLabel4;
+    private javax.swing.JLabel jLabel5;
+    private javax.swing.JLabel jLabel6;
     public javax.swing.JPanel jPanel1;
     // End of variables declaration//GEN-END:variables
 }

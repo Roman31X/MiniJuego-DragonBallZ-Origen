@@ -24,4 +24,8 @@ public class ControladorMusicaFondo {
         fondoMusica.open(AudioSystem.getAudioInputStream(ruta));
         fondoMusica.start();
     }
+    
+    public void paraMusica(){
+        fondoMusica.stop();
+    }
 }

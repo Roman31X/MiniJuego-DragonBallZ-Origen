@@ -43,13 +43,14 @@ public class Start_DragonBallZ_Origen extends javax.swing.JFrame {
         INICIAR.setBackground(new java.awt.Color(204, 204, 204));
         INICIAR.setFont(new java.awt.Font("Wide Latin", 3, 10)); // NOI18N
         INICIAR.setForeground(new java.awt.Color(255, 0, 0));
-        INICIAR.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Iconos/inicioGris.png"))); // NOI18N
+        INICIAR.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Palabras/jugarLuz.png"))); // NOI18N
+        INICIAR.setBorderPainted(false);
         jPanel1.add(INICIAR, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 270, 130, 30));
 
         SALIR.setBackground(new java.awt.Color(204, 204, 204));
         SALIR.setFont(new java.awt.Font("Wide Latin", 3, 12)); // NOI18N
         SALIR.setForeground(new java.awt.Color(255, 0, 0));
-        SALIR.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Iconos/finGris.png"))); // NOI18N
+        SALIR.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Palabras/salirLuz.png"))); // NOI18N
         SALIR.setBorderPainted(false);
         jPanel1.add(SALIR, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 330, 130, 30));
 
@@ -74,7 +75,7 @@ public class Start_DragonBallZ_Origen extends javax.swing.JFrame {
         jPanel1.add(Tres, new org.netbeans.lib.awtextra.AbsoluteConstraints(325, 72, 129, 160));
 
         Naranja.setBackground(new java.awt.Color(255, 255, 255));
-        Naranja.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondos/MedioFondo (1).gif"))); // NOI18N
+        Naranja.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Fondos/MedioFondo.gif"))); // NOI18N
         Naranja.setOpaque(true);
         Naranja.setPreferredSize(new java.awt.Dimension(189, 200));
         jPanel1.add(Naranja, new org.netbeans.lib.awtextra.AbsoluteConstraints(189, 238, 131, 160));
